@@ -2,7 +2,7 @@
 
 ## Contents
 
-1. [Components For A Well-Formed PowerShell MAML Help](#1)
+1. [Components For A Well-Formed PowerShell MAML Help](#1.)
 
 ## 1. Components For A Well-Formed PowerShell MAML Help
 
@@ -81,7 +81,7 @@ Root container for this syntax configuration.
 ```XML
 <command:syntaxItem><!--Syntax configuration here--></command:syntaxItem>
 ```
-# <a name="1"></a>1.6.1.1. Command Name
+# <a name="1."></a>1.6.1.1. Command Name
 
 Name.
 
