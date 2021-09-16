@@ -1,12 +1,15 @@
-# PowerShell MAML Help
+# <a name=""></a>PowerShell MAML Help
 
 ## Contents
 
-1. [Components For A Well-Formed PowerShell MAML Help](#1.)
+* 1. [Components For A Well-Formed PowerShell MAML Help](#1.)
+    * 1.1. [XML Declaration](#1.1.)
+    * 1.2. [Help Items](#1.2.)
+    * [test](#)
 
-## 1. Components For A Well-Formed PowerShell MAML Help
+## <a name="1."></a>1. Components For A Well-Formed PowerShell MAML Help
 
-## 1.1. XML Declaration
+## <a name="1.1."></a>1.1. XML Declaration
 
 XML Declaration.
 
@@ -14,7 +17,7 @@ XML Declaration.
 <?xml version="1.0" encoding="UTF-8"?>
 ```
 
-# 1.2. Help Items
+## <a name="1."></a>1.2. Help Items
 
 Root container of this help file and of all commands. All namespaces are defined here.
 
@@ -22,7 +25,7 @@ Root container of this help file and of all commands. All namespaces are defined
 <helpItems schema="maml" xmlns="http://msh" xmlns:maml="http://schemas.microsoft.com/maml/2004/10" xmlns:command="http://schemas.microsoft.com/maml/dev/command/2004/10" xmlns:dev="http://schemas.microsoft.com/maml/dev/2004/10" xmlns:MSHelp="http://msdn.microsoft.com/mshelp"><!--All help here--></helpItems>
 ```
 
-# 1.3. Command
+## 1.3. Command
 
 Root container for this command.
 
@@ -30,7 +33,7 @@ Root container for this command.
 <command:command><!--All help for this command here--></command:command>
 ```
 
-# 1.4. Command Name And Synopsis
+## 1.4. Command Name And Synopsis
 
 Name and synopis.
 
@@ -38,7 +41,7 @@ Name and synopis.
 <command:details><!--Name and synopsis here--></command:details>
 ```
 
-# 1.4.1. Command Name
+## 1.4.1. Command Name
 
 Name.
 
@@ -47,7 +50,7 @@ Name.
 <command:verb><!--Verb here--></command:verb>
 <command:noun><!--Noun here--></command:noun>
 ```
-# 1.4.2. Command Synopsis
+## 1.4.2. Command Synopsis
 
 Synopsis.
 
@@ -57,7 +60,7 @@ Synopsis.
 </maml:description>
 ```
 
-# 1.5. Command Description
+## 1.5. Command Description
 
 Description.
 
@@ -67,21 +70,21 @@ Description.
 </maml:description>
 ```
 
-# 1.6. Command Syntax Configurations
+## 1.6. Command Syntax Configurations
 
 Root container for all syntax configurations.
 
 ```XML
 <command:syntax><!--Syntax configurations here--></command:syntax>
 ```
-# 1.6.1. Command Syntax Configuration
+## 1.6.1. Command Syntax Configuration
 
 Root container for this syntax configuration.
 
 ```XML
 <command:syntaxItem><!--Syntax configuration here--></command:syntaxItem>
 ```
-# <a name="1."></a>1.6.1.1. Command Name
+## 1.6.1.1. Command Name
 
 Name.
 
