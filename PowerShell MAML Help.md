@@ -1,11 +1,11 @@
-# <a name=""></a>PowerShell MAML Help
+# <a name="main"></a>PowerShell MAML Help
 
 ## Contents
 
 * 1. [Components For A Well-Formed PowerShell MAML Help](#1.)
     * 1.1. [XML Declaration](#1.1.)
     * 1.2. [Help Items](#1.2.)
-    * [test](#)
+    * [test](#main)
 
 ## <a name="1."></a>1. Components For A Well-Formed PowerShell MAML Help
 
